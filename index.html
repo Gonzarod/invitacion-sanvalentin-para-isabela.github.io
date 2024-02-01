@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Valentine</title>
+  </head>
+  <body>
+
+    
+    <audio src="saborami.mp3" id="saborami" loop="loop" autoplay="autoplay"></audio>
+   
+    <div class="container">
+      <div class="Mainprompt">
+        <div class="buttons1">
+            <button onclick="playMusic()" id="yesButton3">TOCAMEEEEE</button>
+        </div>
+        
+        <img class="image" src="images/catflower.jpg"></img>
+        <div class="item">
+            <div class="polaroid" id="polariod">
+              <img src="images/img1.JPG">
+              <div class="caption">11</div>
+            </div>
+        </div>
+        <img class="image" src="images/catflower.jpg" id="oc"></img>
+        <h1 class="hh" id="name">Holaaa guapaaaa!</h1>
+        <p class="pp" id="question">Te invitoo a reventarme granos este 14 de febrero y de paso a tener una cena especial.</p>
+        <p class="pp" id="question2">Aceptas?</p>
+        <div class="buttons">
+          <button onclick="showMessage('Yes')" id="yesButton2">Si</button>
+          <button onclick="showMessage('Yes')" id="yesButton1">Yes</button>
+        </div>
+        <div class="hidden-message" id="no-message">
+          <p>Nice try, but you can't escape that easily!</p>
+        </div>
+        <div class="hidden-message" id="yes-message">
+          <p>Yeees! See you on the 14th, princess.</p>
+        </div>
+        <div class="hidden-message" id="love">
+            <p class="pp">Te quiero <3</p>
+        </div>
+    
+
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
